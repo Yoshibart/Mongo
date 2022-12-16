@@ -1,0 +1,8 @@
+use ("advanceddb);
+db.factresults.insertOne({"player_sk": 5, "p_name": "John", "p_sname": "McDonald", "day": 10, "month": 7, "prize": 2600.0, "rank": 3, "t_descriprion": "Dubai Open", "total_prize": 780000.0, "year": 2014})
+db.factresults.insertOne({"player_sk": 10, "p_name": "Martha", "p_sname": "Ross", "day": 15, "month": 7, "prize": 10400.0, "rank": 10, "t_descriprion": "US open", "total_prize": 1700000.0, "year": 2014})
+db.factresults.insertOne({"player_sk": 1, "p_name": "Tiger", "p_sname": "Woods", "day": 17, "month": 12, "prize": 7800.0, "rank": 1, "t_descriprion": "Italian Open", "total_prize": 2000000.0, "year": 2014})
+db.factresults.insertOne({"player_sk": 8, "p_name": "Paul", "p_sname": "Bin", "day": 10, "month": 7, "prize": 15600.0, "rank": 1, "t_descriprion": "Dubai Open", "total_prize": 780000.0, "year": 2014})
+db.factresults.insertOne({"player_sk": 2, "p_name": "Jane", "p_sname": "Smith", "day": 1, "month": 1, "prize": 20000.0, "rank": 2, "t_descriprion": "Irish Open", "total_prize": 300000.0, "year": 2014})
+db.factresults.insertOne({"player_sk": 6, "p_name": "Mario", "p_sname": "Baggio", "day": 21, "month": 7, "prize": 6000.0, "rank": 3, "t_descriprion": "US open", "total_prize": 1700000.0, "year": 2014})
+db.factresults.insertOne({"player_sk": 9, "p_name": "Peter", "p_sname": "Flynn", "day": 10, "month": 7, "prize": 12220.0, "rank": 2, "t_descriprion": "Dubai Open", "total_prize": 780000.0, "year": 2014})
