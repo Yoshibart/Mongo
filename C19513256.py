@@ -14,9 +14,9 @@ casssession.execute('USE advanceddb')
 url="mongodb://localhost:27017"
 client = pymongo.MongoClient(url, directConnection=True)
 
-# Working with advanceddb and the factmarks collection
+# Working with advanceddb and the factresults collection
 db = client.advanceddb
-coll=db.factmarks
+coll=db.factresults
 
 
 #Prepare the query for cassandra
